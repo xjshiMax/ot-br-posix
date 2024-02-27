@@ -3,11 +3,11 @@ include $(TOPDIR)/rules.mk
 # Name, version and release number
 # The name and version of your package are used to define the variable to point to the build directory of your package: $(PKG_BUILD_DIR)
 PKG_NAME:=openthread
-PKG_VERSION:=1.0
+PKG_VERSION:=1.3
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/openthread/ot-br-posix.git
+PKG_SOURCE_URL:=https://github.com/xjshiMax/ot-br-posix.git
 PKG_SOURCE_VERSION:=55cee49a0616b03a443c2f746776842b4aec8391
 
 include $(INCLUDE_DIR)/package.mk
